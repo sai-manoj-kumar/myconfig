@@ -1,0 +1,9 @@
+Host gitlab
+HostName gitlab.phonepe.com
+User git
+IdentityFile ~/.ssh/gitlab_rsa.pub
+
+Host github
+HostName github.com
+User git
+IdentityFile ~/.ssh/github_ed25519.pub
